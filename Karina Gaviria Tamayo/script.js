@@ -98,12 +98,15 @@ const inventario = [5, 12, 8, 130, 44];
 const grandesValores = inventario.filter((num) => num > 10);
 console.log(grandesValores);*/
 
-/* Ejercicio 5: Acumulacion de Datos (inmutable) */
+/* Ejercicio 5: Acumulacion de Datos (inmutable) 
 const ventas = [100, 250, 150, 400];
 //obtenga el total de ventas usando el metodo reduce
-const totalVentas = ventas.reduce(
-  (acumulador, valorActual) => acumulador + valorActual,
-  0
-);
+const totalVentas = ventas.reduce((acumulador, valorActual) => acumulador + valorActual,0);
 // el 0 al final indica el valor inicial del acumulador
-console.log(totalVentas);
+console.log(totalVentas);*/
+
+/* Ejercicio 6: Ordenamiento Alfabético (mutable) */
+let nombres = ["Zulma", "Andres", "Bernardo", "Carlos"];
+//Ordene el arreglo alfabéticamente usando sort
+nombres.sort();
+console.log(nombres);
