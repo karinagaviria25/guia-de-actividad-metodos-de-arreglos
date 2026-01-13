@@ -137,8 +137,14 @@ const cursos = ["git", "React", "Node"];
 const tieneJS = cursos.includes("JavaScript");
 console.log(tieneJS);/*
 
-/* Ejercicio 11: Validación total (Declarativo) */
+/* Ejercicio 11: Validación total (Declarativo)
 const edades = [20, 25, 19, 30];
 //Verifique si todos los elementos son mayores o iguales a 18 usando every
 const todosAdultos = edades.every((edad) => edad >= 18);
-console.log(todosAdultos);
+console.log(todosAdultos);/*
+
+/* Ejercicio 12: Validación parcial (Declarativo)*/
+const puntajes = [5, 8, 12, 3];
+//Verifica si al menos uno de los puntajes es mayor a 10 usando some
+const hayPuntajeAlto = puntajes.some((punto) => punto > 10);
+console.log(hayPuntajeAlto);
