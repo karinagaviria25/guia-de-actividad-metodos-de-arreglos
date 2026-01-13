@@ -111,8 +111,15 @@ let nombres = ["Zulma", "Andres", "Bernardo", "Carlos"];
 nombres.sort();
 console.log(nombres);/*
 
-/* Ejercicio 7: inversión de datos (mutable) */
+/* Ejercicio 7: inversión de datos (mutable) 
 let orden = [1, 2, 3, 4, 5];
 //invierta la posición de los elementos usando reverse
 orden.reverse();
-console.log(orden);
+console.log(orden);/*
+
+
+/* Ejercicio 8: Búsqueda de valor (Declarativo) */
+const invitados = ["Juan", "Maria", "Pedro", "Luisa"];
+//use find para retornar el nombre "Pedro" si existe en la lista
+const invitadoEncontrado = invitados.find((nombre) => nombre === "Pedro");
+console.log(invitadoEncontrado);
