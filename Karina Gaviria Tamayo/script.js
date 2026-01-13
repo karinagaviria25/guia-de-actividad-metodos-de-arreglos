@@ -149,9 +149,15 @@ const puntajes = [5, 8, 12, 3];
 const hayPuntajeAlto = puntajes.some((punto) => punto > 10);
 console.log(hayPuntajeAlto);/*
 
-/* Ejercicio 13: Concatenación (inmutable) */
+/* Ejercicio 13: Concatenación (inmutable) 
 const filaA = ["A1", "A2"];
 const filaB = ["B1", "B2"];
 //unir ambos arreglos en uno solo llamado todaslasFilas usando concat.
 const todaslasFilas = filaA.concat(filaB);
-console.log(todaslasFilas);
+console.log(todaslasFilas);/*
+
+/* Ejercicio 14: Formateo de string (inmutable) */
+const palabras = ["Hola", "mundo", "JavaScript"];
+//convierta el arreglo en una sola cadena de texto separada por espacios usando join
+const frase = palabras.join(" ");
+console.log(frase);
