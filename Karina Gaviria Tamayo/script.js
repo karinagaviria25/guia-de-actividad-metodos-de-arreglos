@@ -118,8 +118,15 @@ orden.reverse();
 console.log(orden);/*
 
 
-/* Ejercicio 8: Búsqueda de valor (Declarativo) */
+/* Ejercicio 8: Búsqueda de valor (Declarativo)
 const invitados = ["Juan", "Maria", "Pedro", "Luisa"];
 //use find para retornar el nombre "Pedro" si existe en la lista
 const invitadoEncontrado = invitados.find((nombre) => nombre === "Pedro");
-console.log(invitadoEncontrado);
+console.log(invitadoEncontrado);/*
+
+
+/* Ejecicio 9: Localización de índice (Declarativo) */
+const precios = [45, 12, 89, 34];
+//use findIndex para encontrar la posición del valor 89
+const indice = precios.findIndex((precio) => precio === 89);
+console.log(indice);
