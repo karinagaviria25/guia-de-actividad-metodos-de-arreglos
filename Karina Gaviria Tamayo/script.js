@@ -86,8 +86,14 @@ colores.splice(1, 0, "Naranja");
 colores.splice(3, 1, "Morado");
 console.log(colores);*/
 
-/* Ejercicio 3: Transformación Declarativa (inmutable)*/
+/* Ejercicio 3: Transformación Declarativa (inmutable)
 const temperaturas = [15, 20, 25, 30];
 //Cree un arreglo fahrenheit usando map con la fórmula (C* 9/5) + 32.
 const fahrenheit = temperaturas.map((c) => (c * 9) / 5 + 32);
-console.log(fahrenheit);
+console.log(fahrenheit);/*
+
+/* Ejercicio 4: Filtrado Selectivo (inmutable)*/
+const inventario = [5, 12, 8, 130, 44];
+//cree un arreglo grandesValores con los numeros mayores a 10 usando filter
+const grandesValores = inventario.filter((num) => num > 10);
+console.log(grandesValores);
