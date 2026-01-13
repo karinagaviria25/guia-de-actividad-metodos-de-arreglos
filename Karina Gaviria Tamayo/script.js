@@ -67,7 +67,7 @@ elemento del arreglo original, map() genera un nuevo elemento basado en lo que t
 
 */
 
-/* Ejercicio 1: Gestión de pilas (Mutable) */
+/* Ejercicio 1: Gestión de pilas (Mutable)
 /*let herramientas = ["Martillo", "Destornillador"];
 //Agregue "Taladro" al final
 herramientas.push("Taladro");
@@ -78,10 +78,16 @@ herramientas.pop("Taladro");
 console.log(herramientas);
 /*
 
-/*Ejercicio 2: Modificación de índice (Mutable) */
+/*Ejercicio 2: Modificación de índice (Mutable) 
 let colores = ["Rojo", "Verde", "Azul", "Amarillo"];
 //insertar "Naranja" en la posición 1
 colores.splice(1, 0, "Naranja");
 //reemplazar "Azul" por "Morado"
 colores.splice(3, 1, "Morado");
-console.log(colores);
+console.log(colores);*/
+
+/* Ejercicio 3: Transformación Declarativa (inmutable)*/
+const temperaturas = [15, 20, 25, 30];
+//Cree un arreglo fahrenheit usando map con la fórmula (C* 9/5) + 32.
+const fahrenheit = temperaturas.map((c) => (c * 9) / 5 + 32);
+console.log(fahrenheit);
