@@ -125,8 +125,14 @@ const invitadoEncontrado = invitados.find((nombre) => nombre === "Pedro");
 console.log(invitadoEncontrado);/*
 
 
-/* Ejecicio 9: Localización de índice (Declarativo) */
+/* Ejecicio 9: Localización de índice (Declarativo)
 const precios = [45, 12, 89, 34];
 //use findIndex para encontrar la posición del valor 89
 const indice = precios.findIndex((precio) => precio === 89);
-console.log(indice);
+console.log(indice);/*
+
+/* Ejercicio 10: Comprobación de Existencia (inmutable) */
+const cursos = ["git", "React", "Node"];
+//Use includes para verificar si "JavaScript" se encuentra en el listado
+const tieneJS = cursos.includes("JavaScript");
+console.log(tieneJS);
