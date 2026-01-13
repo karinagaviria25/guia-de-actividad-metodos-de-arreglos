@@ -143,8 +143,15 @@ const edades = [20, 25, 19, 30];
 const todosAdultos = edades.every((edad) => edad >= 18);
 console.log(todosAdultos);/*
 
-/* Ejercicio 12: Validación parcial (Declarativo)*/
+/* Ejercicio 12: Validación parcial (Declarativo)
 const puntajes = [5, 8, 12, 3];
 //Verifica si al menos uno de los puntajes es mayor a 10 usando some
 const hayPuntajeAlto = puntajes.some((punto) => punto > 10);
-console.log(hayPuntajeAlto);
+console.log(hayPuntajeAlto);/*
+
+/* Ejercicio 13: Concatenación (inmutable) */
+const filaA = ["A1", "A2"];
+const filaB = ["B1", "B2"];
+//unir ambos arreglos en uno solo llamado todaslasFilas usando concat.
+const todaslasFilas = filaA.concat(filaB);
+console.log(todaslasFilas);
