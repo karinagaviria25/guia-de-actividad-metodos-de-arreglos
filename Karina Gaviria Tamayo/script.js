@@ -156,8 +156,14 @@ const filaB = ["B1", "B2"];
 const todaslasFilas = filaA.concat(filaB);
 console.log(todaslasFilas);/*
 
-/* Ejercicio 14: Formateo de string (inmutable) */
+/* Ejercicio 14: Formateo de string (inmutable) 
 const palabras = ["Hola", "mundo", "JavaScript"];
 //convierta el arreglo en una sola cadena de texto separada por espacios usando join
 const frase = palabras.join(" ");
-console.log(frase);
+console.log(frase);/*
+
+/* Ejercicio 15: Extracción de rango (inmutable) */
+const base = ["Elemento0", "Elemento1", "Elemento2", "Elemento3"];
+//cree un subarreglo con los elementos en la posiciones 1 y 2 usando slice.
+const subArreglo = base.slice(1, 3);
+console.log(subArreglo);
