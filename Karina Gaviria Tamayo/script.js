@@ -68,7 +68,7 @@ elemento del arreglo original, map() genera un nuevo elemento basado en lo que t
 */
 
 /* Ejercicio 1: Gestión de pilas (Mutable) */
-let herramientas = ["Martillo", "Destornillador"];
+/*let herramientas = ["Martillo", "Destornillador"];
 //Agregue "Taladro" al final
 herramientas.push("Taladro");
 ///agregue "Sierra" al inicio
@@ -76,3 +76,12 @@ herramientas.unshift("Sierra");
 //luego elimine el ultimo elemento
 herramientas.pop("Taladro");
 console.log(herramientas);
+/*
+
+/*Ejercicio 2: Modificación de índice (Mutable) */
+let colores = ["Rojo", "Verde", "Azul", "Amarillo"];
+//insertar "Naranja" en la posición 1
+colores.splice(1, 0, "Naranja");
+//reemplazar "Azul" por "Morado"
+colores.splice(3, 1, "Morado");
+console.log(colores);
