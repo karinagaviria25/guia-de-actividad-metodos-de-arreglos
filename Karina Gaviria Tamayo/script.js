@@ -131,8 +131,14 @@ const precios = [45, 12, 89, 34];
 const indice = precios.findIndex((precio) => precio === 89);
 console.log(indice);/*
 
-/* Ejercicio 10: Comprobación de Existencia (inmutable) */
+/* Ejercicio 10: Comprobación de Existencia (inmutable)
 const cursos = ["git", "React", "Node"];
 //Use includes para verificar si "JavaScript" se encuentra en el listado
 const tieneJS = cursos.includes("JavaScript");
-console.log(tieneJS);
+console.log(tieneJS);/*
+
+/* Ejercicio 11: Validación total (Declarativo) */
+const edades = [20, 25, 19, 30];
+//Verifique si todos los elementos son mayores o iguales a 18 usando every
+const todosAdultos = edades.every((edad) => edad >= 18);
+console.log(todosAdultos);
