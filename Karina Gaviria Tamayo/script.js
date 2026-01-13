@@ -105,8 +105,14 @@ const totalVentas = ventas.reduce((acumulador, valorActual) => acumulador + valo
 // el 0 al final indica el valor inicial del acumulador
 console.log(totalVentas);*/
 
-/* Ejercicio 6: Ordenamiento Alfabético (mutable) */
+/* Ejercicio 6: Ordenamiento Alfabético (mutable) 
 let nombres = ["Zulma", "Andres", "Bernardo", "Carlos"];
 //Ordene el arreglo alfabéticamente usando sort
 nombres.sort();
-console.log(nombres);
+console.log(nombres);/*
+
+/* Ejercicio 7: inversión de datos (mutable) */
+let orden = [1, 2, 3, 4, 5];
+//invierta la posición de los elementos usando reverse
+orden.reverse();
+console.log(orden);
