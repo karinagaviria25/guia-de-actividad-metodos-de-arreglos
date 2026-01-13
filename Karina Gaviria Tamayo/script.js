@@ -92,8 +92,18 @@ const temperaturas = [15, 20, 25, 30];
 const fahrenheit = temperaturas.map((c) => (c * 9) / 5 + 32);
 console.log(fahrenheit);/*
 
-/* Ejercicio 4: Filtrado Selectivo (inmutable)*/
+/* Ejercicio 4: Filtrado Selectivo (inmutable)
 const inventario = [5, 12, 8, 130, 44];
 //cree un arreglo grandesValores con los numeros mayores a 10 usando filter
 const grandesValores = inventario.filter((num) => num > 10);
-console.log(grandesValores);
+console.log(grandesValores);*/
+
+/* Ejercicio 5: Acumulacion de Datos (inmutable) */
+const ventas = [100, 250, 150, 400];
+//obtenga el total de ventas usando el metodo reduce
+const totalVentas = ventas.reduce(
+  (acumulador, valorActual) => acumulador + valorActual,
+  0
+);
+// el 0 al final indica el valor inicial del acumulador
+console.log(totalVentas);
